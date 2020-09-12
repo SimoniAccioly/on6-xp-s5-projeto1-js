@@ -112,7 +112,7 @@ const dataCompra = new Date();
 console.table(notaFiscal);
 
 
-console.log(`Valor sem desconto: ${valorSubTotal.toFixed(2)}`)
-console.log(`Total de desconto: ${valorDoDesconto.toFixed(2)} (${cupomDesconto}%)`)
-console.log(`Valor total: ${valorTotal.toFixed(2)}`)
-console.log(`Compra realizada em ${dataCompra.toLocaleString("pt-br")}`)
+console.log(`Valor sem desconto: R$${valorSubTotal.toFixed(2)}`)
+console.log(`Total de desconto: R$${valorDoDesconto.toFixed(2)} (${cupomDesconto}%)`)
+console.log(`Valor total: R$${valorTotal.toFixed(2)}`)
+console.log(`Compra realizada em R$${dataCompra.toLocaleString("pt-br")}`)
